@@ -1,5 +1,2 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
 # npm run test
 npx nx affected --target=lint,tsc,test --uncommitted
